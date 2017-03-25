@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:background="#FF0000"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/MediumTextView1"
+        android:text="RED"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:gravity="center"
+        android:background="#FF7F24"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ORANGE"
+        android:id="@+id/MediumTextView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:gravity="center"
+        android:background="#FFD700"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="YELLOW"
+        android:id="@+id/MediumTextView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:gravity="center"
+        android:background="#6E8B3D"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="GREEN"
+        android:id="@+id/textView21"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/MediumTextView2"
+        android:layout_toLeftOf="@+id/textView22"
+        android:layout_toStartOf="@+id/textView22" />
+
+    <TextView
+        android:gravity="center"
+        android:background="#27408B"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="BLUE"
+        android:id="@+id/textView22"
+        android:layout_alignTop="@+id/textView21"
+        android:layout_alignLeft="@+id/MediumTextView2"
+        android:layout_alignStart="@+id/MediumTextView2" />
+
+    <TextView
+        android:gravity="center"
+        android:background="#8E388E"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="INDIGO"
+        android:id="@+id/textView23"
+        android:layout_alignTop="@+id/textView21"
+        android:layout_toLeftOf="@+id/MediumTextView3"
+        android:layout_toStartOf="@+id/MediumTextView3" />
+
+    <TextView
+        android:background="#EEA9B8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="VIOLET"
+        android:gravity="center"
+        android:id="@+id/LargeTextView"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp" />
+
+
+</RelativeLayout>
